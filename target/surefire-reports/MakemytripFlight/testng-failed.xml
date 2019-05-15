@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MakemytripFlight]">
+  <test thread-count="5" verbose="0" name="SearchForFlightsAndCountFlightsPrice(failed)">
+    <classes>
+      <class name="com.makemytrip.testCases.HomePage">
+        <methods>
+          <include name="searchFlights"/>
+        </methods>
+      </class> <!-- com.makemytrip.testCases.HomePage -->
+    </classes>
+  </test> <!-- SearchForFlightsAndCountFlightsPrice(failed) -->
+</suite> <!-- Failed suite [MakemytripFlight] -->

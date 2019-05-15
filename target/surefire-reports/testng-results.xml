@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MakemytripFlight" duration-ms="17543" started-at="2019-05-15T12:25:02Z" finished-at="2019-05-15T12:25:20Z">
+    <groups>
+    </groups>
+    <test name="SearchForFlightsAndCountFlightsPrice" duration-ms="17543" started-at="2019-05-15T12:25:02Z" finished-at="2019-05-15T12:25:20Z">
+      <class name="com.makemytrip.testCases.TestSetup">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.makemytrip.testCases.TestSetup@2d209079]" name="beforeSuite" is-config="true" duration-ms="6438" started-at="2019-05-15T12:24:56Z" finished-at="2019-05-15T12:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.makemytrip.testCases.TestSetup@2d209079]" name="afterSuite" is-config="true" duration-ms="705" started-at="2019-05-15T12:25:20Z" finished-at="2019-05-15T12:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.makemytrip.testCases.TestSetup -->
+      <class name="com.makemytrip.testCases.HomePage">
+        <test-method status="PASS" signature="searchFlights()[pri:0, instance:com.makemytrip.testCases.HomePage@6bdf28bb]" name="searchFlights" duration-ms="17522" started-at="2019-05-15T12:25:02Z" finished-at="2019-05-15T12:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+      </class> <!-- com.makemytrip.testCases.HomePage -->
+    </test> <!-- SearchForFlightsAndCountFlightsPrice -->
+  </suite> <!-- MakemytripFlight -->
+</testng-results>
